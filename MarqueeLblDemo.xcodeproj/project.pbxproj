@@ -14,6 +14,7 @@
 		FFC7E447204BBBE30033AA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC7E445204BBBE30033AA46 /* LaunchScreen.storyboard */; };
 		FFC7E452204BBBE30033AA46 /* MarqueeLblDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC7E451204BBBE30033AA46 /* MarqueeLblDemoTests.swift */; };
 		FFC7E45D204BBBE30033AA46 /* MarqueeLblDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC7E45C204BBBE30033AA46 /* MarqueeLblDemoUITests.swift */; };
+		FFC7E46B204BBC9E0033AA46 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC7E46A204BBC9E0033AA46 /* MarqueeLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FFC7E458204BBBE30033AA46 /* MarqueeLblDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarqueeLblDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC7E45C204BBBE30033AA46 /* MarqueeLblDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeLblDemoUITests.swift; sourceTree = "<group>"; };
 		FFC7E45E204BBBE30033AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC7E46A204BBC9E0033AA46 /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		FFC7E43B204BBBE30033AA46 /* MarqueeLblDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FFC7E46A204BBC9E0033AA46 /* MarqueeLabel.swift */,
 				FFC7E43C204BBBE30033AA46 /* AppDelegate.swift */,
 				FFC7E43E204BBBE30033AA46 /* ViewController.swift */,
 				FFC7E440204BBBE30033AA46 /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC7E46B204BBC9E0033AA46 /* MarqueeLabel.swift in Sources */,
 				FFC7E43F204BBBE30033AA46 /* ViewController.swift in Sources */,
 				FFC7E43D204BBBE30033AA46 /* AppDelegate.swift in Sources */,
 			);
